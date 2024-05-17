@@ -7,7 +7,6 @@ router.post('/alumno', alumnosController.createAlumno);
 router.get('/alumno/:rut', alumnosController.readAlumno);
 router.put('/alumno', alumnosController.updateAlumno);
 router.delete('/alumno/:rut', alumnosController.removeAlumno)
-
-
+router.get('/alumnos', alumnosController.allAlumnos)
 
 export default router;
